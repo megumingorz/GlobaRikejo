@@ -1,18 +1,45 @@
 @charset "utf-8";
 
 #globalheader-container {
-  color: #ffffff;
-  background: rgba(0,0,0,0.5);  
-  position: fixed;
+    color: #ffffff;
+    background: rgba(0,0,0,0.5);  
+    position: fixed;
 }
 .date-day,
 #footer {
-  background: #da0027;
+    background: #da0027;
 }
 a {
-  color: #da0027;
+    color: #da0027;
+}
+
+/* titles */
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+    color: #1b5385;
+}
+.entry-content h3 {
+    font-size: 180%;
 }
 .entry-content h3:before {
-  content: "\f072";
-  font-family: FontAwesome;
+    content: "\f072";
+    font-family: FontAwesome;
+    margin-right: 15px;
+    font-size: 130%;
+    vertical-align: middle;
+}
+.entry-content h4 {
+    font-size: 150%;
+}
+.entry-content h4:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+.entry-content h5 {
+    font-size: 120%;
 }
