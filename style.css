@@ -12,6 +12,9 @@
 a {
     color: #da0027;
 }
+.categories a {
+    color: #1b5385;
+}
 
 /* titles */
 .entry-content h1,
