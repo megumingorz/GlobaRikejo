@@ -96,7 +96,7 @@
 }
 
 #header-bottom img {
-    min-width: 100%;
+    max-width: 100%;
 }
 
 #header-bottom .logo {
@@ -108,6 +108,7 @@
     max-width: 213px;
     margin: 0 auto;
 }
+
 
 
 /* カラー */
