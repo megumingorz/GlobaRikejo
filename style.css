@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#globalheader-container {
+  color: #ffffff;
+  background: rgba(0,0,0,0.5);  
+  position: fixed;
+}
+.date-day,
+#footer {
+  background: #da0027;
+}
+a {
+  color: #da0027;
+}
+.entry-content h3:before {
+  content: "\f072";
+  font-family: FontAwesome;
+}
