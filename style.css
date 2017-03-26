@@ -91,7 +91,11 @@ a {
 .categories a {
     color: #1b5385;
 }
-
+/* 続きを読む */
+a.entry-see-more {
+  background-color: #1b5385;
+  color: #fff;
+}
 
 /* 見出しカスタマイズ */
 .entry-content h1,
