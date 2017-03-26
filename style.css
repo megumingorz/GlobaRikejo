@@ -1,5 +1,81 @@
 @charset "utf-8";
 
+/* 2カラムレイアウト */
+#main {
+  width: 600px;
+  float: left;
+}
+#box2 {
+  width: 300px;
+  padding: 24px;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  border-radius: 2px;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: slideRight;
+  -webkit-animation-name: slideRight;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+@-webkit-keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(6.25em);
+    transform: translateX(6.25em);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    -webkit-transform: translateX(6.25em);
+    transform: translateX(6.25em);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+#box2-inner {
+  width: auto;
+}
+.hatena-module {
+  text-align: left;
+  padding-right: 0;
+  width: 300px;
+  float: left;
+}
+@media (max-width: 1024px) {
+  #main, #box2, .hatena-module {
+    width: 100%;
+    float: none;
+  }
+  #box2 {
+	padding: 0;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: initial;
+	-webkit-animation-duration: initial;
+	-webkit-animation-duration: initial;
+	-webkit-animation-fill-mode: none;
+	-webkit-animation-fill-mode: none;
+	-webkit-animation-name: initial;
+	-webkit-animation-name: initial;
+	-webkit-animation-timing-function: initial;
+	-webkit-animation-timing-function: initial;
+  }
+}
+
+
+/* カラーカスタマイズ */
 #globalheader-container {
     color: #ffffff;
     background: rgba(0,0,0,0.5);  
@@ -16,7 +92,8 @@ a {
     color: #1b5385;
 }
 
-/* titles */
+
+/* 見出しカスタマイズ */
 .entry-content h1,
 .entry-content h2,
 .entry-content h3,
