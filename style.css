@@ -183,6 +183,9 @@ a {
     margin-bottom: 10px;
     text-align: center;
 }
+.entry-footer .share-buttons {
+    margin-bottom: 30px;
+}
 
 .share-buttons .inner a {
     position: relative;
