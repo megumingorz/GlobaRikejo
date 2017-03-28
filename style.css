@@ -175,3 +175,128 @@ a {
 .entry-content h5 {
     font-size: 120%;
 }
+
+
+/* SNSシェアボタン */
+
+.share-buttons {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.share-buttons .inner a {
+    position: relative;
+    display: inline-block;
+    width: 15%;
+    height: 45px;
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.share-buttons .inner .share-text {
+    font-size: 15px;
+}
+
+.share-buttons .inner .hatena-bookmark-button {
+    color: #008fde;
+    border: 1px solid #008fde;
+    background: #fff;
+}
+
+.share-buttons .inner .hatena-bookmark-button:hover {
+    color: #fff;
+    background: #008fde;
+}
+
+.share-buttons .inner .hatena-bookmark-button:active {
+    background: #5478A5;
+}
+
+.share-buttons .inner .facebook-button {
+    color: #305097;
+    border: 1px solid #305097;
+    background: #fff;
+}
+
+.share-buttons .inner .facebook-button:hover {
+    color: #fff;
+    background: #305097;
+}
+
+.share-buttons .inner .facebook-button:active {
+    background: #213254;
+}
+
+.share-buttons .inner .twitter-button {
+    color: #55acee;
+    border: 1px solid #55acee;
+    background: #fff;
+}
+
+.share-buttons .inner .twitter-button:hover {
+    color: #fff;
+    background: #55acee;
+}
+
+.share-buttons .inner .twitter-button:active {
+    background: #0285b7;
+}
+
+.share-buttons .inner .googleplus-button {
+    color: #db4a39;
+    border: 1px solid #db4a39;
+    background: #fff;
+}
+
+.share-buttons .inner .googleplus-button:hover {
+    color: #fff;
+    background: #db4a39;
+}
+
+.share-buttons .inner .googleplus-button:active {
+    background: #a23629;
+}
+
+.share-buttons .inner .pocket-button {
+    color: #d3505a;
+    border: 1px solid #d3505a;
+    background: #fff;
+}
+
+.share-buttons .inner .pocket-button:hover {
+    color: #fff;
+    background: #d3505a;
+}
+
+.share-buttons .inner .pocket-button:active {
+    background: #b5392c;
+}
+
+@media (max-width: 1024px) {
+    .share-buttons {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .share-buttons .inner a {
+        position: relative;
+        display: inline-block;
+        width: 16.5%;
+        height: 45px;
+        line-height: 25px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        padding: 2px;
+    }
+    .share-buttons .inner .share-text {
+        font-size: 8px;
+    }
+    .share-count-box {
+        height: 1.33333em;
+        display: inline-block;
+        text-align: center;
+    }
+}
