@@ -242,7 +242,7 @@ a {
     top: 3px;
     box-shadow: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
     .share-buttons {
         margin-bottom: 10px;
         text-align: center;
