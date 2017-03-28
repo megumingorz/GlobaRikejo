@@ -132,10 +132,10 @@ a {
     color: #1b5385;
 }
 
-a.hatena-follow-button,
-a.entry-see-more {
-    background-color: #1b5385;
-    color: #fff;
+.hatena-follow-button,
+.entry-see-more {
+    background: #1b5385 !important;
+    color: #fff !important;
 }
 
 
