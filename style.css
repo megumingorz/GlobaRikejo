@@ -190,6 +190,9 @@ a {
     margin-bottom: 30px;
 }
 
+.share-buttons .ttl {
+    font-size: 9px;
+}
 .share-buttons .inner a {
     position: relative;
     display: inline-block;
@@ -256,6 +259,7 @@ a {
         font-size: 16px;
         text-align: center;
         text-decoration: none;
+        min-width: 64px;
     }
     .share-buttons .inner .share-text {
         font-size: 10px;
