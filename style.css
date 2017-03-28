@@ -182,6 +182,8 @@ a {
 .share-buttons {
     margin-bottom: 10px;
     text-align: center;
+}
+.customized-header {
     margin-left: -80px;
 }
 .entry-footer .share-buttons {
