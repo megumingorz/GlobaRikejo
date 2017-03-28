@@ -111,7 +111,6 @@
 }
 
 
-
 /* カラー */
 
 #globalheader-container {
@@ -133,6 +132,7 @@ a {
     color: #1b5385;
 }
 
+a.hatena-follow-button,
 a.entry-see-more {
     background-color: #1b5385;
     color: #fff;
