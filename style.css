@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset 'utf-8';
 
 /* 2カラムレイアウト */
 
@@ -13,7 +13,7 @@
     float: right;
     margin-top: 0;
     margin-bottom: 60px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     border-radius: 2px;
     -webkit-animation-duration: 0.4s;
@@ -30,22 +30,22 @@
 @-webkit-keyframes slideRight {
     0% {
         -webkit-transform: translateX(6.25em);
-        transform: translateX(6.25em);
+                transform: translateX(6.25em);
     }
     100% {
         -webkit-transform: translateX(0);
-        transform: translateX(0);
+                transform: translateX(0);
     }
 }
 
 @keyframes slideRight {
     0% {
         -webkit-transform: translateX(6.25em);
-        transform: translateX(6.25em);
+                transform: translateX(6.25em);
     }
     100% {
         -webkit-transform: translateX(0);
-        transform: translateX(0);
+                transform: translateX(0);
     }
 }
 
@@ -135,7 +135,7 @@ a {
 .hatena-follow-button,
 .entry-see-more {
     background: #1b5385 !important;
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 
@@ -155,7 +155,7 @@ a {
 }
 
 .entry-content h3:before {
-    content: "\f072";
+    content: '\f072';
     font-family: FontAwesome;
     margin-right: 15px;
     font-size: 130%;
@@ -167,7 +167,7 @@ a {
 }
 
 .entry-content h4:before {
-    content: "\f0da";
+    content: '\f0da';
     font-family: FontAwesome;
     margin-right: 10px;
 }
@@ -195,89 +195,53 @@ a {
     line-height: 25px;
     font-size: 16px;
     text-align: center;
+    color: #ffffff;
     text-decoration: none;
     padding: 5px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+       -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+.share-buttons .inner a:hover {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+       -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .share-buttons .inner .share-text {
     font-size: 15px;
 }
-
 .share-buttons .inner .hatena-bookmark-button {
-    color: #008fde;
-    border: 1px solid #008fde;
-    background: #fff;
-}
-
-.share-buttons .inner .hatena-bookmark-button:hover {
-    color: #fff;
     background: #008fde;
 }
-
-.share-buttons .inner .hatena-bookmark-button:active {
-    background: #5478A5;
-}
-
 .share-buttons .inner .facebook-button {
-    color: #305097;
-    border: 1px solid #305097;
-    background: #fff;
-}
-
-.share-buttons .inner .facebook-button:hover {
-    color: #fff;
     background: #305097;
 }
-
-.share-buttons .inner .facebook-button:active {
-    background: #213254;
-}
-
 .share-buttons .inner .twitter-button {
-    color: #55acee;
-    border: 1px solid #55acee;
-    background: #fff;
-}
-
-.share-buttons .inner .twitter-button:hover {
-    color: #fff;
     background: #55acee;
 }
-
-.share-buttons .inner .twitter-button:active {
-    background: #0285b7;
-}
-
 .share-buttons .inner .googleplus-button {
-    color: #db4a39;
-    border: 1px solid #db4a39;
-    background: #fff;
-}
-
-.share-buttons .inner .googleplus-button:hover {
-    color: #fff;
     background: #db4a39;
 }
-
-.share-buttons .inner .googleplus-button:active {
-    background: #a23629;
-}
-
 .share-buttons .inner .pocket-button {
-    color: #d3505a;
-    border: 1px solid #d3505a;
-    background: #fff;
+    background: #ee4256;
 }
-
-.share-buttons .inner .pocket-button:hover {
-    color: #fff;
-    background: #d3505a;
+.share-buttons .inner .share-buttons a:active {
+    top: 3px;
+    box-shadow: none;
 }
-
-.share-buttons .inner .pocket-button:active {
-    background: #b5392c;
-}
-
 @media (max-width: 1024px) {
     .share-buttons {
         margin-bottom: 10px;
