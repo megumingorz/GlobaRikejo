@@ -16,7 +16,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -65,7 +65,7 @@
 		"oA": 0,
 		"oAP": "\/css\/style.css",
 		"oF": 3,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		}
 	},
