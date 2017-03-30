@@ -128,7 +128,6 @@ a {
         color: #1b5385;
     }
     h3 {
-        font-size: 180%;
         &:before {
             content: '\f072';
             font-family: FontAwesome;
@@ -138,7 +137,6 @@ a {
         }
     }
     h4 {
-        font-size: 150%;
         &:before {
             content: '\f0da';
             font-family: FontAwesome;
@@ -146,7 +144,6 @@ a {
         }
     }
     h5 {
-        font-size: 120%;
     }
 }
 

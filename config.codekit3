@@ -16,7 +16,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -77,7 +77,7 @@
 	"creationDate": 512399500,
 	"displayValue": "GlobaRikejo",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-chloe"
+	"iconImageName": "brackets_teal"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
