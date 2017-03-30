@@ -152,7 +152,7 @@ a {
         position:relative;
         z-index:1;
         border-radius: 4px;
-        border: none;
+        border: none !important;
 
         &:before,
         &:after{
@@ -162,11 +162,15 @@ a {
             font-family:"ＭＳ Ｐゴシック",sans-serif;
             color:#fff;
             position:absolute;
-            left:0;
-            top:0;
             z-index:-1;
         }
+        &:before {
+            left:0;
+            top:0;
+        }
         &:after {
+            right:0;
+            bottom:0;
             transform: rotate(180deg);
         }
     }
