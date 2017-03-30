@@ -152,6 +152,8 @@ a {
         position:relative;
         z-index:1;
         border-radius: 4px;
+        border: none;
+
         &:before,
         &:after{
             content:"“";
