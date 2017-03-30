@@ -116,7 +116,7 @@ a {
 }
 
 
-/* 本文 - 見出し */
+/* 本文 */
 
 .entry-content {
     h1,
@@ -144,6 +144,25 @@ a {
         }
     }
     h5 {
+    }
+
+    blockquote{
+        background-color:#efefef;
+        padding:2em;
+        position:relative;
+        z-index:1;
+        border-radius: 4px;
+    }
+    blockquote:before{
+        content:"“";
+        font-size:600%;
+        line-height:1em;
+        font-family:"ＭＳ Ｐゴシック",sans-serif;
+        color:#fff;
+        position:absolute;
+        left:0;
+        top:0;
+        z-index:-1;
     }
 }
 
