@@ -197,15 +197,13 @@ a {
 /* SNSシェアボタン */
 
 .customized-header {
+    padding: 5px 0 0;
     clear: both;
 }
 
 .share-buttons {
     margin: 10px 0;
     text-align: center;
-    .entry-header & {
-        margin-top: 30px;
-    }
     .entry-footer & {
         margin-bottom: 30px;
     }
