@@ -118,6 +118,18 @@ a {
 
 /* 本文 */
 
+.entry-header {
+    padding: 14px 14px 24px 24px;
+    .date {
+        position: static;
+        float: left;
+    }
+}
+
+.entry-title {
+    margin: .4em 0 .4em 80px;
+}
+
 .entry-content {
     h1,
     h2,
@@ -185,7 +197,7 @@ a {
 /* SNSシェアボタン */
 
 .customized-header {
-    margin-left: -80px;
+    clear: both;
 }
 
 .share-buttons {
